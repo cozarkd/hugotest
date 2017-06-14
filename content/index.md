@@ -5,8 +5,6 @@ type: index
 weight: 0
 
 ---
-
-
 ## Beautiful documentation
 
 Material  is a theme for [Hugo](https://gohugo.io), a fast and flexible static site generator. It is built using Google's [material design](https://www.google.com/design/spec/material-design/introduction.html)
