@@ -28,7 +28,7 @@ git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-mat
 
 ## Features
 
-- Beautiful., readable and very user-friendly design based on Google's material
+- Beautiful, readable and very user-friendly design based on Google's material
   design guidelines, packed in a full responsive template with a well-defined
   and [easily customizable color palette]({{< relref "getting-started/index.md#changing-the-color-palette" >}}), great typography, as well as a
   beautiful search interface and footer.
