@@ -8,6 +8,8 @@ build:
         code: |
             $(git clone https://github.com/sethmacleod/dimension.git ./themes/dimension)
     - arjen/hugo-build:
-        version: "1.17.0"
+        version: "HEAD"
         theme: dimension
+        config: config.toml
         flags: --buildDrafts=true
+    
