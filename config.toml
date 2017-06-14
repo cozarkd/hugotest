@@ -1,11 +1,11 @@
 baseurl = "https://example.org/"
 canonifyurls = true
+disableRSS = true
 googleAnalytics = ""
 languageCode = "en-us"
 metadataformat = "yaml"
 theme = "hugo-material-docs"
 title = "Material Docs"
-disableRSS = true
 [blackfriday]
 fractions = true
 plainIDAnchors = true
