@@ -1,13 +1,12 @@
 +++
+bref = "Buttons in Kube are minimalistic, designed for instant and convenient customization, and are ready to be pushed, pressed, clicked and manipulated in whichever ways. A lot of interactive components use buttons, and you should too!"
 date = "2017-04-10T16:41:16+01:00"
-weight = 70
 description = "Full variety of pressible, clickable and pushable buttons"
 title = "Buttons"
-draft = false
-bref =  "Buttons in Kube are minimalistic, designed for instant and convenient customization, and are ready to be pushed, pressed, clicked and manipulated in whichever ways. A lot of interactive components use buttons, and you should too!"
 toc = true
-+++
+weight = 70
 
++++
 <h3 class="section-head" id="h-primary"><a href="#h-primary">Primary</a></h3>
 <div class="example">
   <button class="button">Button</button> <a class="button" href="#">Button</a>

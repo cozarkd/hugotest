@@ -1,13 +1,12 @@
 +++
+bref = "Breadcrumbs in Kube are formed as lists with default separator. This separator can be customized with ease by simply changing a single CSS line"
 date = "2017-04-10T16:41:54+01:00"
-weight = 110
 description = "Traces for the users so they won't get lost"
 title = "Breadcrumbs"
-draft = false
-bref= "Breadcrumbs in Kube are formed as lists with default separator. This separator can be customized with ease by simply changing a single CSS line"
 toc = true
-+++
+weight = 110
 
++++
 <h3 class="section-head" id="h-base"><a href="#h-base">Base</a></h3>
 <div class="example">
   <nav class="breadcrumbs">

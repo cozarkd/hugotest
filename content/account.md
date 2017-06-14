@@ -1,5 +1,7 @@
 +++
 title = "Sign In"
+type = "page"
+
 +++
 <form action="" data-component="validate" method="post" class="form form-centered"><input type="hidden" name="authorize-token" value="">
 

@@ -1,14 +1,13 @@
 +++
-description = "Add some motion, shaking, pulsing, sliding and more"
-title = "Animation"
+bref = "Although it is quite easy to overuse animation effects, Kube makes it pretty easy to create meaningful, smooth and overall nice looking animation. Feel free to click every button below to see what it does, and then only use those effects that are essential to your project"
 date = "2017-04-10T16:43:08+01:00"
-draft = false
-weight = 200
-bref="Although it is quite easy to overuse animation effects, Kube makes it pretty easy to create meaningful, smooth and overall nice looking animation. Feel free to click every button below to see what it does, and then only use those effects that are essential to your project"
+description = "Add some motion, shaking, pulsing, sliding and more"
+script = "animation"
+title = "Animation"
 toc = true
-script = 'animation'
-+++
+weight = 200
 
++++
 <h3 class="section-head" id="h-slide"><a href="#h-slide">Slide</a></h3>
 <div class="example">
   <div class="demo-animation-wrap">

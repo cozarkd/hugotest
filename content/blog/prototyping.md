@@ -1,13 +1,12 @@
 +++
-date = "2017-04-02T22:01:15+01:00"
-title = "Prototyping with markdown"
-tags = ["markdown","prototype", "hugo"]
 categories = ["design"]
+date = "2017-04-02T22:01:15+01:00"
 description = "An idea to make website protoype with markdown"
-draft = false
+tags = ["markdown", "prototype", "hugo"]
+title = "Prototyping with markdown"
 weight = 30
-+++
 
++++
 <img data-src="https://cldup.com/3tov0aCFh8.png" class="lazyload">
 
 I have been working on a large set of documentation for a prototype that will eventually make it into a product. One issue with the publishing system at my company is that it makes doing prototypes, or really anything not within the rigidly and narrowly scoped model, difficult to set up. It takes a lot of work just to get to the point where you can begin writing.

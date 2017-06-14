@@ -1,12 +1,11 @@
 +++
+bref = "Messages are an essential part of modern web and messages in Kube look nice"
 date = "2017-04-10T16:41:34+01:00"
-draft = false
-weight = 90
 description = "Versatile and refined messages, ideal for daily use"
 title = "Messages"
-bref = "Messages are an essential part of modern web and messages in Kube look nice"
-+++
+weight = 90
 
++++
 <h3 class="section-head" id="h-usage"><a href="#h-usage">Usage</a></h3>
 <div class="example">
   <div class="message open" data-component="message" data-loaded="true">

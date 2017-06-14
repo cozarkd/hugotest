@@ -1,12 +1,11 @@
 +++
-draft = false
-weight = 30
+bref = "Kube uses fully responsive, flexbox-enabled 12-column grid. You can combine or divide columns, nest them, center them horizontally or vertically, and do all sorts of things. Here are a few examples of what you can do with Kube's grid."
 description = "Flexible, fully responsive and ready to use"
 title = "Grid"
-bref = "Kube uses fully responsive, flexbox-enabled 12-column grid. You can combine or divide columns, nest them, center them horizontally or vertically, and do all sorts of things. Here are a few examples of what you can do with Kube's grid."
 toc = true
-+++
+weight = 30
 
++++
 <div id="main">
   <h3 class="section-head" id="h-columns"><a href="#h-columns">Columns</a></h3>
   <p>Columns are building blocks for many websites. Here's how columns are formed in Kube, and here's how you can use them right away.</p>
