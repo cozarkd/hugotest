@@ -1,9 +1,10 @@
 +++
+bref = ""
 categories = ["general"]
 date = "2017-03-02T21:56:55+01:00"
 description = "This article is just a demo post and shows you the style of common used elements writing in pure markdown without HTML code."
 tags = ["markdown", "example"]
-title = "Welcome to Kube"
+title = "Welcome to Kube!"
 weight = 10
 
 +++
