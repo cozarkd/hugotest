@@ -3,7 +3,6 @@ disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-US"
 theme = "hugo-sustain"
-<<<<<<< HEAD
 disableRSS = true
 
 [permalinks]
@@ -26,9 +25,6 @@ disableRSS = true
   Stackoverflow = "username"
 
 ## Main Menu
-=======
-title = "Chris Turner"
->>>>>>> 8ce6158e92c2fd06905631bd287dce6d821530fd
 [[menu.main]]
 identifier = "resume"
 name = "resume"
