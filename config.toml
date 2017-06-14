@@ -1,47 +1,78 @@
-baseurl = "http://example.org"
-title = "Hugo testing"
-theme = "dimension"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-defaultContentLanguage = "en"
-enableRobotsTXT = true
-disableRSS = true
+title = "Material Docs"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
 
 [params]
-  title = "hugoTest"
-  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
-  logo = "fa-diamond"
-  copyright = "Untitled"
+	# General information
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
+	copyright = "Released under the MIT license"
 
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
 
-[[params.social]]
-  medium = "instagram"
-  icon = "instagram"
-  link = "#"
+	permalink = "#"
 
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
+	# Custom assets
+	custom_css = []
+	custom_js  = []
 
-[languages]
-[languages.en]
-languageName = "English"
-weight = 1
-title = "Dimension"
+	# Syntax highlighting theme
+	highlight_css  = ""
 
-[languages.de]
-languageName = "Deutsch"
-weight = 2
-title = "idioma 2"
-description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = "digitalcraftsman"
+	email   = "hello@email.com"
+
+
+[[menu.main]]
+	name   = "Material"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Adding content"
+	url    = "adding-content/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Roadmap"
+	url    = "roadmap/"
+	weight = 30
+
+[[menu.main]]
+	name   = "License"
+	url    = "license/"
+	weight = 40
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
