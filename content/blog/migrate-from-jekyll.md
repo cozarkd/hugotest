@@ -1,7 +1,7 @@
 ---
 date: '2014-03-10T00:00:00Z'
 linktitle: Migrating from Jekyll
-title: Migrate to Hugo from Jekyll
+title: Migratee to Hugo from Jekyll
 highlight: 'true'
 weight: 20
 description: ''
