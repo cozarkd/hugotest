@@ -4,6 +4,8 @@ description = "Kube is a professional  and a responsive Hugo theme for developer
 languageCode = "en-us"
 theme = "kube"
 title = "Kube for Hugo"
+enableRobotsTXT = true
+disableRSS = true
 [[menu.main]]
 name = "Faq"
 url = "/faq/"
