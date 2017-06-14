@@ -1,11 +1,9 @@
 baseurl = "https://example.com/"
-languageCode = "en-US"
-title = "Chris Turner"
-# Enable comments by entering your Disqus shortname
 disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
+languageCode = "en-US"
 theme = "hugo-sustain"
+<<<<<<< HEAD
 disableRSS = true
 
 [permalinks]
@@ -28,18 +26,35 @@ disableRSS = true
   Stackoverflow = "username"
 
 ## Main Menu
+=======
+title = "Chris Turner"
+>>>>>>> 8ce6158e92c2fd06905631bd287dce6d821530fd
 [[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
+identifier = "resume"
+name = "resume"
+url = "/resume/"
+weight = 300
 [[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
+identifier = "projects"
+name = "projects"
+url = "/projects/"
+weight = 200
 [[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "/resume/"
+identifier = "blog"
+name = "blog"
+url = "/blog/"
+weight = 100
+[params]
+author = "Chris Turner"
+avatar = "profile.png"
+custom_css = []
+custom_js = []
+description = "Describe your website"
+[params.social]
+email = "email@example.com"
+github = "username"
+linkedin = "username"
+stackoverflow = "username"
+twitter = "username"
+[permalinks]
+post = "/:year/:month/:day/:slug"
