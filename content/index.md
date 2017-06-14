@@ -5,9 +5,11 @@ type: index
 weight: 0
 
 ---
+
+
 ## Beautiful documentation
 
-Material is a theme for [Hugo](https://gohugo.io), a fast and flexible static site generator. It is built using Google's [material design](https://www.google.com/design/spec/material-design/introduction.html)
+Material  is a theme for [Hugo](https://gohugo.io), a fast and flexible static site generator. It is built using Google's [material design](https://www.google.com/design/spec/material-design/introduction.html)
 guidelines, fully responsive, optimized for touch and pointer devices as well
 as all sorts of screen sizes.
 
@@ -29,14 +31,7 @@ git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-mat
 
 ## Features
 
-<<<<<<< HEAD
-- Beautiful, readable and very user-friendly design based on Google's material
-  design guidelines, packed in a full responsive template with a well-defined
-  and [easily customizable color palette]({{< relref "getting-started/index.md#changing-the-color-palette" >}}), great typography, as well as a
-  beautiful search interface and footer.
-=======
 *
->>>>>>> 0a52c46c882ea0310551e1847ffe6ca435803cb2
 
 *
 
