@@ -1,0 +1,13 @@
+box: debian
+build:
+  steps:
+    - install-packages:
+        packages: git
+    - script:
+        name: download theme
+        code: |
+            $(git clone https://github.com/sethmacleod/dimension.git ./themes/dimension)
+    - arjen/hugo-build:
+        version: "0.14"
+        theme: dimension
+        flags: --buildDrafts=true
