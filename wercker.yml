@@ -12,4 +12,11 @@ build:
         theme: dimension
         config: config.toml
         flags: --buildDrafts=true
-    
+deploy:
+  steps:
+    - s3sync:
+        key_id: AKIAJAQ2M2QLNCECMVPA
+        key_secret: 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
+        bucket_url: s3://hugotest1
+        source_dir: public/
+        opts: --add-header=Cache-Control:max-age=604800
